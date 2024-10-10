@@ -50,7 +50,7 @@ jobs:
           node-version: 18
       - run: npm install
       - name: Run code-coverage
-        run: npm run code-coverage
+        run: npm run coverage
           
       - name: Archive Test Result
         if: always()
